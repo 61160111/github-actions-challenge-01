@@ -9,4 +9,4 @@ jobs:
         with:
           node-version: '14'
       - run: npm install --save express
-      - run: bats -v
+      - run: node app.js
